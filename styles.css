@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones-centrados {
+    display: flex;
+    gap: 10px;
+}
+
+.mi-boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.mi-boton:hover {
+    background-color: #0056b3;
+}
